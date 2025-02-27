@@ -73,9 +73,4 @@ If you’d like to contribute:
 ## 📜 License
 This project is licensed under the MIT License.
 
-## 📧 Contact
-For any queries, reach out to:
-- **Your Name**: Mokshagna Anurag Kankati
-- **Email**: your.email@example.com
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
 
