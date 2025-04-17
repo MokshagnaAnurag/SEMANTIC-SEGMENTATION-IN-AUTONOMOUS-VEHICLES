@@ -1,5 +1,22 @@
 !pip install torch torchvision torchaudio segmentation-models-pytorch albumentations opencv-python matplotlib
 
+!wget -c "http://data.apolloscape.auto/segmentation/dataset.zip" -O apollo.zip
+!unzip apollo.zip -d /content/apolloscape
+
+!wget -c "https://github.com/alexgkendall/SegNet-Tutorial/archive/master.zip" -O camvid.zip
+!unzip camvid.zip -d /content/camvid
+
+!wget -c "https://a2d2-data.s3.eu-central-1.amazonaws.com/camera_lidar_semantic.zip" -O a2d2.zip
+!unzip a2d2.zip -d /content/a2d2
+
+!wget -c "https://storage.googleapis.com/idd-dataset-releases/idd_semantic.zip" -O idd.zip
+!unzip idd.zip -d /content/idd
+
+!wget -c "http://synthia-dataset.net/download/synthia.zip" -O synthia.zip
+!unzip synthia.zip -d /content/synthia
+
+!pip install torch torchvision torchaudio segmentation-models-pytorch albumentations opencv-python matplotlib
+
 import os
 import torch
 import torchvision.transforms as transforms
